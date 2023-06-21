@@ -54,15 +54,6 @@ const Navbar = () => {
                   Products
                 </a>
               </li>
-              <li>
-                <a
-                  href="#contact"
-                  className="text-[#ff4800] block py-2 pl-3 pr-4rounded bg-transparent md:p-0 font-bold hover:text-[#ffe100]"
-                  aria-current="page"
-                >
-                  Contacts
-                </a>
-              </li>
             </ul>
           </div>
         </div>
@@ -110,14 +101,6 @@ const Navbar = () => {
                     className="block py-2 pl-3 pr-4 text-[#ff4800] rounded-xl hover:bg-[#ff4800] hover:text-white hover:bg-opacity-70"
                   >
                     Products
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#contact"
-                    className="block py-2 pl-3 pr-4 text-[#ff4800] rounded-xl hover:bg-[#ff4800] hover:text-white hover:bg-opacity-70"
-                  >
-                    Contacts
                   </a>
                 </li>
               </ul>
