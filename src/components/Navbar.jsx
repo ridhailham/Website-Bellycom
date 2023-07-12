@@ -5,17 +5,23 @@ const Navbar = () => {
   return (
     <div className="fixed min-w-full">
       <nav className="md:block hidden bg-white border-[#ff4800] border-b-4">
-        <div className="flex flex-wrap items-center justify-between mx-auto p-2">
+        <div className="flex flex-wrap items-center justify-between mx-auto p-1">
           <a href="/" className="flex items-center">
             <img
               src="/Logo.jpg"
               className="h-20 mr-2 rounded-3xl"
               alt="Belly Logo"
             />
-            <span className="self-center text-4xl text-[#ff4800] font-bold whitespace-nowrap hover:text-[#ffe100]">
+            
+
+
+            {/* <span className="self-center text-4xl text-[#ff4800] font-bold whitespace-nowrap hover:text-[#ffe100]">
               Belly
-            </span>
+            </span> */}
           </a>
+          <h1 className="self-center flex items-center justify-center text-5xl text-[#ff4800] font-bold whitespace-nowrap hover:text-[#ffe100]">Belly</h1>
+
+
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -34,7 +40,7 @@ const Navbar = () => {
               <path d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
+          {/* <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white text-[#ff4800]">
               <li>
                 <a
@@ -55,7 +61,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
 
