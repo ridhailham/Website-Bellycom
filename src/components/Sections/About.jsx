@@ -4,8 +4,8 @@ const About = () => {
   return (
     <div className="bg-[#ff4800] h-auto md:h-[70vh] w-[100vw] flex justify-center py-5 gap-8">
       <div className="flex flex-col gap-8">
-        <div className="min-w-full min-h-[30vh] md:h-[50vh] flex flex-col items-center justify-center gap-8">
-          <div className="bg-white w-[80vw] md:w-[60vw] h-[18vh] md:h-[30vh] flex gap-8 flex-col justify-center items-center rounded-[10px] shadow-2xl shadow-[#000000]">
+        <div className="min-w-full min-h-[30vh] md:h-[25vh] flex flex-col items-center justify-center gap-8">
+          <div className="bg-white w-[80vw] md:w-[60vw] h-[18vh] md:h-[20vh] flex gap-8 flex-col justify-center items-center rounded-[10px] shadow-2xl shadow-[#000000]">
             <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#ffdd00] text-4xl md:text-8xl font-bold text-center">
               About Us
             </h3>
