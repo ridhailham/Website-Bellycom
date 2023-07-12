@@ -19,6 +19,7 @@ const Product = () => {
                 <div className="min-w-full min-h-[60vh] flex flex-col items-center justify-center gap-8">
                     <div className="bg-white w-[90vw] md:w-[60vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#4a58eb]">
                         <div>
+                            
                             <a
                                 href="https://www.instagram.com/bellycom_official/"
                                 className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-3xl font-bold mb-[-5px] pt-[-5px]"
@@ -30,9 +31,9 @@ const Product = () => {
                                 href="https://www.instagram.com/bellycom_official/"
                                 className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 mb-[-15px]"
                             >
-                                <h1></h1>
-                                <h1></h1>
-                                <h1></h1>
+                                <p></p>
+                                <p></p>
+                                <p></p>
                                 <svg
                                     className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2"
                                     fill="currentColor"
