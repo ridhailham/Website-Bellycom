@@ -12,9 +12,9 @@ const Hero = () => {
       }}
     >
       <div className="min-w-full min-h-[100vh] flex flex-col items-center justify-center gap-8">
-        <div className="bg-white w-[60vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff4800]">
-          <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0] text-4xl md:text-8xl font-bold text-center">Belly</h3>
-          <h3 className=" bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0]  font-normal text-[20px] md:text-3xl">
+        <div className="bg-white w-[60vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff4800] border: to-black">
+          <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#ffdd00] text-4xl md:text-9xl font-bold text-center">Belly</h3>
+          <h3 className=" bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0]  font-bold text-[20px] md:text-3xl">
             Choose With Your Pleasure
           </h3>
         </div>

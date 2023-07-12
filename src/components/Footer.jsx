@@ -10,7 +10,7 @@ const Footer = () => {
             <span className="text-sm text-white sm:text-center">
               © 2023{" "}
               <a href="/" className="hover:underline text-white">
-                Brawijaya Preneur
+                BrawijayaPreneur
               </a>
               . All Rights Reserved.
             </span>
@@ -29,13 +29,13 @@ const Footer = () => {
                 </svg>
                 <span className="">bellycom_official</span>
               </a>
-              <a
+              {/* <a
                 href="http://wa.me/6285711891195"
                 className="flex gap-2 items-center text-white hover:text-gray-900 dark:hover:text-white"
               >
                 <img src="/images/WA.svg" className="w-5 h-5 text-white" />
                 <span className="">0857 1189 1195</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

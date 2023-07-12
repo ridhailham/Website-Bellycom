@@ -4,15 +4,15 @@ const Navbar = () => {
   const [isOpen, setisOpen] = useState(false);
   return (
     <div className="fixed min-w-full">
-      <nav className="md:block hidden bg-white border-[#ff4800] border-b-2">
-        <div className="flex flex-wrap items-center justify-between mx-auto p-4">
+      <nav className="md:block hidden bg-white border-[#ff4800] border-b-4">
+        <div className="flex flex-wrap items-center justify-between mx-auto p-2">
           <a href="/" className="flex items-center">
             <img
               src="/Logo.jpg"
-              className="h-9 mr-3 rounded-3xl"
+              className="h-20 mr-2 rounded-3xl"
               alt="Belly Logo"
             />
-            <span className="self-center text-2xl text-[#ff4800] font-semibold whitespace-nowrap hover:text-[#ffe100]">
+            <span className="self-center text-4xl text-[#ff4800] font-bold whitespace-nowrap hover:text-[#ffe100]">
               Belly
             </span>
           </a>
@@ -39,7 +39,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#about"
-                  className="text-[#ff4800] block py-2 pl-3 pr-4rounded bg-transparent md:p-0 font-bold hover:text-[#ffe100]"
+                  className="text-[#ff4800] block py-2 pl-3 pr-4rounded bg-transparent md:p-0 font-bold text-2xl hover:text-[#ffe100]"
                   aria-current="page"
                 >
                   About
@@ -48,7 +48,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#product"
-                  className="text-[#ff4800] block py-2 pl-3 pr-4rounded bg-transparent md:p-0 font-bold hover:text-[#ffe100]"
+                  className="text-[#ff4800] block py-2 pl-3 pr-4rounded bg-transparent md:p-0 font-bold text-2xl hover:text-[#ffe100]"
                   aria-current="page"
                 >
                   Products

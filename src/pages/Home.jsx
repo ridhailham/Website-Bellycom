@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import About from "../components/Sections/About";
 import Hero from "../components/Sections/Hero";
 import Product from "../components/Sections/Product";
+import FindUs from "../components/Sections/FindUs"
 
 const Home = () => {
   return (
@@ -18,6 +19,9 @@ const Home = () => {
         </div>
         <div id="product" className=" w-[90vw] flex justify-center mx-auto">
           <Product />
+        </div>
+        <div>
+          <FindUs />
         </div>
       </div>
       <div id="contact">

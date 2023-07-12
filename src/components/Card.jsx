@@ -4,7 +4,7 @@
 const Card = ({nama, no}) => {
   return (
     <div className="my-3 ">
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-[#ff4800] shadow-md">
+      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-[#00ff44] shadow-md">
         <a href="#">
           <img
             className="rounded-t-lg w-full h-auto"
