@@ -11,7 +11,7 @@ const Paginations = ({
     pages.push(i);
   }
   return (
-    <div className="flex gap-4 justify-center my-8">
+    <div className="flex gap-3 justify-center my-8">
       {pages.map((page, index) => {
         return (
           <button
