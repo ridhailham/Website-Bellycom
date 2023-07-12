@@ -27,14 +27,6 @@ const Product = () => {
                             href="https://www.instagram.com/bellycom_official/"
                             className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 mb-[-5px]"
                         >
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
-                            <h1></h1>
 
                             <svg
                                 className="w-40 h-40 #3f729b mr-2"
