@@ -1,5 +1,6 @@
 import React from "react";
 import PaginationAll from "../PaginationAll";
+import PaginationAllAice from "../PaginationAllAice";
 
 const Product = () => {
   return (
@@ -17,7 +18,7 @@ const Product = () => {
       <PaginationAll />
 
       <h3 className="text-[#000000] font-bold text-5xl py-10">AICE Ice Cream</h3>
-      <PaginationAll />
+      <PaginationAllAice />
 
       <h3 className="text-[#000000] font-bold text-5xl py-10">Other</h3>
       <PaginationAll />

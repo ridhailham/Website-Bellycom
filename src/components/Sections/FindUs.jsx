@@ -12,8 +12,6 @@ const Product = () => {
                 </div>
             </div>
             <br />
-            <br />
-            <br />
 
             <div className="min-w-full min-h-[60vh] flex flex-col items-center justify-center gap-8">
                 <div className="min-w-full min-h-[60vh] flex flex-col items-center justify-center gap-8">
@@ -31,9 +29,9 @@ const Product = () => {
                                 href="https://www.instagram.com/bellycom_official/"
                                 className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 mb-[-15px]"
                             >
-                                <p></p>
-                                <p></p>
-                                <p></p>
+                                <h1></h1>
+                                <h1></h1>
+                                <h1></h1>
                                 <svg
                                     className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2"
                                     fill="currentColor"
@@ -49,7 +47,7 @@ const Product = () => {
                         </h3>
                     </div>
                 </div>
-
+                
 
                 <div className="bg-white w-[90vw] md:w-[60vw] h-[50vh] flex gap-1 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff5b5b]">
                     <svg
@@ -70,6 +68,7 @@ const Product = () => {
                         Kami melakukan penjualan langsung di Universitas Brawijaya
                     </h3>
                 </div>
+                <br />
 
                 <div className="bg-white w-[90vw] md:w-[60vw] h-[50vh] flex gap-1 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#5ee14f]">
                     <svg

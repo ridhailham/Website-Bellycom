@@ -8,7 +8,7 @@ const Card = ({nama, no}) => {
         <a href="#">
           <img
             className="rounded-t-lg w-full h-auto"
-            src={`/images/sample-1.jpg`}
+            src={`/images/pict-${no}.jpg`}
             alt={no}
           />
         </a>
