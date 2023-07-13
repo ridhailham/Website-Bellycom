@@ -17,7 +17,7 @@ const Home = () => {
         <div id="about" className="bg-[#ff4800]">
           <About />
         </div>
-        <div id="product" className=" w-[90vw] flex justify-center mx-auto">
+        <div id="product" className=" w-[100vw] flex justify-center mx-auto">
           <Product />
         </div>
         <div>
