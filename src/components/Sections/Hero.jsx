@@ -3,12 +3,12 @@ import React from "react";
 const Hero = () => {
   const containerStyle = {
     position: "relative",
-    width: "100%",
+    width: "100vw", 
     height: "100vh",
     overflow: "hidden",
     backgroundImage: 'url("/images/bg-1.jpg")',
     backgroundRepeat: "repeat",
-    backgroundSize: "100px 100px",
+    backgroundSize: "100px 100px", // Atur ukuran gambar yang ingin digunakan
     backgroundPosition: "center",
   };
 
@@ -55,35 +55,10 @@ const Hero = () => {
     <div style={containerStyle}>
       <div style={contentStyle}>
         <div style={cardStyle}>
-          <div
-            className="min-w-full min-h-[100vh] flex flex-col items-center justify-center gap-8"
-            style={{
-              width: "90%", // Mengatur lebar kartu untuk tampilan mobile
-              height: "auto", // Mengatur tinggi kartu untuk tampilan mobile
-            }}
-          >
-            <div
-              className="bg-white w-[60vw] md:w-[90vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff4800] border: to-black"
-              style={{
-                width: "100%", // Mengatur lebar latar belakang untuk tampilan mobile
-                borderRadius: "50px", // Mengatur sudut bulat untuk tampilan mobile
-                boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)", // Mengatur bayangan untuk tampilan mobile
-              }}
-            >
-              <h3
-                className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#ffdd00] text-4xl md:text-9xl font-bold text-center"
-                style={{
-                  fontSize: "12rem", // Mengatur ukuran judul untuk tampilan mobile
-                }}
-              >
-                Belly
-              </h3>
-              <h3
-                className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0] font-bold text-[20px] md:text-3xl"
-                style={{
-                  fontSize: "30px", // Mengatur ukuran subjudul untuk tampilan mobile
-                }}
-              >
+          <div className="min-w-full min-h-[100vh] flex flex-col items-center justify-center gap-8">
+            <div className="bg-white w-[60vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff4800] border: to-black">
+              <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#ffdd00] text-4xl md:text-9xl font-bold text-center">Belly</h3>
+              <h3 className=" bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0]  font-bold text-[20px] md:text-3xl">
                 Choose With Your Pleasure
               </h3>
             </div>
@@ -97,9 +72,7 @@ const Hero = () => {
 export default Hero;
 
 
-// ====================================================================
-// ====================================================================
-// ====================================================================
+
 
 // // import React from "react";
 
