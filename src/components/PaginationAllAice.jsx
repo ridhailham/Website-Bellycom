@@ -6,7 +6,7 @@ import CardList from "./Aice.Pagination/CardListAice";
 const PaginationAll = () => {
   const [Products, setProducts] = useState(datas);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(3);
+  const [postsPerPage, setPostsPerPage] = useState(6);
 
   const lastPostIndex = currentPage * postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
