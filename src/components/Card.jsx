@@ -3,7 +3,7 @@
 // eslint-disable-next-line react/prop-types
 const Card = ({nama, no}) => {
   return (
-    <div className="my-3 ml-12">
+    <div className="my-3 ">
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-[#00ff44] shadow-md">
         <a >
           <img
