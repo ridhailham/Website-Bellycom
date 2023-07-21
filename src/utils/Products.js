@@ -1,87 +1,49 @@
 export const datas = [
     {
         no: 1,
-        nama: 'Boba'
+        nama: 'Chocolate Classic'
     },
     {
         no: 2,
-        nama: 'Martabak'
+        nama: 'Hazelnut Jelly Milk'
     },
     {
         no: 3,
-        nama: 'Serabi'
+        nama: 'Kacang Hijau'
     },
     {
         no: 4,
-        nama: 'Jamu'
+        nama: 'Cappucino Blend'
     },
     {
         no: 5,
-        nama: 'Es Dawet'
+        nama: 'Strawberry Chocochip'
     },
     {
         no: 6,
-        nama: 'Klepon'
+        nama: 'Cappucino Cincau'
     },
     {
         no: 7,
-        nama: 'Kue Putu'
+        nama: 'Milktea Grass Jelly'
     },
     {
-        no: 1,
-        nama: 'Boba'
+        no: 8,
+        nama: 'Tarro Smothies'
     },
     {
-        no: 2,
-        nama: 'Martabak'
+        no: 9,
+        nama: 'Vanilla Egg Pudding'
     },
     {
-        no: 3,
-        nama: 'Serabi'
+        no: 10,
+        nama: 'Mango Silkpuding'
     },
     {
-        no: 4,
-        nama: 'Jamu'
+        no: 10,
+        nama: 'Thaitea'
     },
-    {
-        no: 5,
-        nama: 'Es Dawet'
-    },
-    {
-        no: 6,
-        nama: 'Klepon'
-    },
-    {
-        no: 7,
-        nama: 'Kue Putu'
-    },
-    {
-        no: 1,
-        nama: 'Boba'
-    },
-    {
-        no: 2,
-        nama: 'Martabak'
-    },
-    {
-        no: 3,
-        nama: 'Serabi'
-    },
-    {
-        no: 4,
-        nama: 'Jamu'
-    },
-    {
-        no: 5,
-        nama: 'Es Dawet'
-    },
-    {
-        no: 6,
-        nama: 'Klepon'
-    },
-    {
-        no: 7,
-        nama: 'Kue Putu'
-    },
+    
+    
     
 ]

@@ -1,6 +1,7 @@
 import React from "react";
 import PaginationAll from "../PaginationAll";
 import PaginationAllAice from "../PaginationAllAice";
+import PaginationAllOther from "../PaginationAllOther"
 
 const Product = () => {
   return (
@@ -21,7 +22,7 @@ const Product = () => {
       <PaginationAllAice />
 
       <h3 className="text-[#000000] font-bold text-5xl py-10">Other</h3>
-      <PaginationAll />
+      <PaginationAllOther />
     </div>
 
 
