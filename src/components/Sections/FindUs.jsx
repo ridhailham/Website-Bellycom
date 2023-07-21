@@ -20,9 +20,9 @@ const Product = () => {
                             
                             <a
                                 href="https://www.instagram.com/bellycom_official/"
-                                className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-3xl font-bold mb-[-5px] pt-[-5px]"
+                                className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-7xl font-bold mb-[-5px] pt-[-5px]"
                             >
-                                <h3>@bellycom_official</h3>
+                                <h3>Open PO</h3>
                             </a>
                             
                             <a
@@ -33,7 +33,7 @@ const Product = () => {
                                 <h1></h1>
                                 <h1></h1>
                                 <svg
-                                    className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2"
+                                    className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2 ml-4"
                                     fill="currentColor"
                                     viewBox="-3 -1 25 25"
                                     aria-hidden="true"
@@ -43,8 +43,14 @@ const Product = () => {
                             </a>
                         </div>
                         <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0] text-xl md:text-3xl font-bold text-center">
-                            Kami melakukan open PO pada Instagram kami
+                            Kami melakukan open PO pada Instagram kami, yakni 
                         </h3>
+                        <a
+                                href="https://www.instagram.com/bellycom_official/"
+                                className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-3xl font-bold mb-[5px] pt-[-5px]"
+                            >
+                                <h3>@bellycom_official</h3>
+                            </a>
                     </div>
                 </div>
                 
