@@ -17,14 +17,17 @@ const Product = () => {
                 <div className="min-w-full min-h-[60vh] flex flex-col items-center justify-center gap-8">
                     <div className="bg-white w-[90vw] md:w-[60vw] h-[50vh] flex gap-8 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#4a58eb]">
                         <div>
-                            
+
                             <a
                                 href="https://www.instagram.com/bellycom_official/"
                                 className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-7xl font-bold mb-[-5px] pt-[-5px]"
                             >
-                                <h3>Open PO</h3>
+                                <div className="mx-auto">
+                                    <h3>Open PO</h3>
+                                </div>
                             </a>
-                            
+
+
                             <a
                                 href="https://www.instagram.com/bellycom_official/"
                                 className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 mb-[-15px]"
@@ -43,17 +46,17 @@ const Product = () => {
                             </a>
                         </div>
                         <h3 className="bg-gradient-to-br bg-clip-text from-[#F34E4E] text-transparent to-[#fec7a0] text-xl md:text-3xl font-bold text-center">
-                            Kami melakukan open PO pada Instagram kami, yakni 
+                            Kami melakukan open PO pada Instagram kami, yakni
                         </h3>
                         <a
-                                href="https://www.instagram.com/bellycom_official/"
-                                className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-3xl font-bold mb-[5px] pt-[-5px]"
-                            >
-                                <h3>@bellycom_official</h3>
-                            </a>
+                            href="https://www.instagram.com/bellycom_official/"
+                            className="flex gap-2 items-center from-[#F34E4E] hover:text-gray-900 dark:hover:text-yellow-400 text-2xl md:text-3xl font-bold mb-[5px] pt-[-5px]"
+                        >
+                            <h3>@bellycom_official</h3>
+                        </a>
                     </div>
                 </div>
-                
+
 
                 <div className="bg-white w-[90vw] md:w-[60vw] h-[50vh] flex gap-1 flex-col justify-center items-center rounded-[100px] shadow-2xl shadow-[#ff5b5b]">
                     <svg
