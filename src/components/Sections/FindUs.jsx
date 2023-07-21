@@ -33,7 +33,7 @@ const Product = () => {
                                 <h1></h1>
                                 <h1></h1>
                                 <svg
-                                    className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2 ml-4"
+                                    className="w-20 h-20 md:w-40 md:h-40 #3f729b mr-2 ml-2"
                                     fill="currentColor"
                                     viewBox="-3 -1 25 25"
                                     aria-hidden="true"
